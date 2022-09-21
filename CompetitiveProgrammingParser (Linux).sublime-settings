@@ -1,0 +1,25 @@
+{
+    "TESTS_FILE_SUFFIX" : "__tests",
+    
+    /*
+    change lang_extension as per the language
+    for java, set lang_extension = ".java"
+    for python, set lang_extension = ".py"
+    for C, set lang_extension = ".c"
+    for javascript, set lang_extension = ".js"
+    */
+    "lang_extension": ".cpp",
+    
+    // always use the default directory irrespective of online judge
+    "use_default_directory": false,
+    
+    "open_in_new_window": false,
+    
+    // Replace `aatrey` with your username
+    "directory" : {
+        "default": "/home/aatrey/.config/sublime-text/Packages/CompetitiveProgrammingParser",
+        "CodeChef" : "/home/aatrey/Contests/CC",
+        "Codeforces" : "/home/aatrey/Contests/CF",
+        "AtCoder" : "/home/aatrey/Contests/Atcoder",
+    },
+}
